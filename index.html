@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/header_banner.css" />
+    <link rel="stylesheet" href="./style/section-1-style.css" />
+    <link rel="stylesheet" href="./style/section-2-style.css" />
+    <link rel="stylesheet" href="./style/section-3-style.css" />
+    <link rel="stylesheet" href="./style/footer-style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
+    <title>La Nueva Stereo</title>
+</head>
+
+<body>
+    <header>
+        <section id="banner">
+            <div class="image-banner">
+                <div id="navbar">
+                    <a href="index.html"><img src="./public/Logo.jpg" alt="Logodelanueva" class="logo" /></a>
+                    <div class="header__navegation">
+                        <nav>
+                            <ul>
+                                <li><a href="/pages/error404.html">NOTICIAS</a></li>
+                                <li><a href="/pages/error404.html">DJ'S</a></li>
+                                <li><a href="/pages/error404.html">PROGRAMACION</a></li>
+                                <li><a href="./pages/publicidad.html">PUBLICIDAD</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="header__setting">
+                        <a href="https://zeno.fm/radio/la-nueva-stereo-galapa/">
+                            <button class="play">
+                                <div class="poligon"></div>
+                                <span class="live-text">EN VIVO</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!--  
+            <section id="banner">
+            <div class="image-banner">
+                <img class="portada" src="./public/banner.png" alt="banner"/>
+            </div> 
+            <h2>NOTICIAS</h2>
+            </section> -->
+        <section id="section-1">
+            <h2>NOTICIAS</h2>
+            <div class="contenedor">
+                <div class="notice">
+                    <div class="header-notice">
+                        <img src="./public/giovannyayala-ciroquiñonez.jpg" alt="notice" />
+                    </div>
+                    <div class="body-notice">
+                        <p class="card-description">
+                            TIRA Y JALA ENTRE GIOVANNY AYALA Y CIRO QUIÑONES POR ‘REGALADA
+                            SALES CARA’
+                        </p>
+                        <button class="vermas">VER MAS</button>
+                    </div>
+                </div>
+                <div class="notice">
+                    <div class="header-notice">
+                        <img src="./public/silvestredangond-1.jpg" alt="notice-1" />
+                    </div>
+                    <div class="body-notice">
+                        <p class="card-description">
+                            ‘LA VALLENATA’ DE SILVESTRE DANGOND TENDRA SU VIDEO DE SILVESTRE
+                            DANGOND TENDRA SU VIDEO
+                        </p>
+                        <button class="vermas">VER MAS</button>
+                    </div>
+                </div>
+                <div class="notice">
+                    <div class="header-notice">
+                        <img src="./public/vallenato.jpeg" alt="notice-2" />
+                    </div>
+                    <div class="body-notice">
+                        <p class="card-description">
+                            POLEMICA EN EL FOLCLOR VALLENATO DESPUES DE DECLARACIONES HECHAS
+                            POR ALEX MANGA
+                        </p>
+                        <button class="vermas">VER MAS</button>
+                    </div>
+                </div>
+                <div class="notice">
+                    <div class="header-notice">
+                        <img src="./public/vallenato.jpeg" alt="notice-2" />
+                    </div>
+                    <div class="body-notice">
+                        <p class="card-description">
+                            POLEMICA EN EL FOLCLOR VALLENATO DESPUES DE DECLARACIONES HECHAS
+                            POR ALEX MANGA
+                        </p>
+                        <button class="vermas">VER MAS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section-2">
+            <h2>TOP 5 CANCIONES DE LA SEMANA</h2>
+            <div class="lista-canciones">
+                <button data-song="./public/Music/Dime si te Vas con Él.mp3" class="trigger">
+                    1 - DIME SI TE VAS CON EL - NIGGA
+                </button>
+                <button data-song="./public/Music/Por Ella Victor Manuelle Letra.mp3" class="trigger">
+                    2 - POR ELLA - VICTOR MANUELLE
+                </button>
+                <button
+                    data-song="./public/Music/Rvssian - Si Tu Lo Dejas FT Bad Bunny X Farruko X Nicky Jam X King Kosa.mp3"
+                    class="trigger">
+                    3 - SI TU LA DEJAS YO LA DEJO - FARRUKO
+                </button>
+                <button data-song="./public/Music/Te Deseo El Mal- Cosculluela Ft Zion & Lennox.mp3" class="trigger">
+                    4 - TE DESEO EL MAL - COSCULLUELA
+                </button>
+                <button data-song="./public/Music/Todavía - La Factoria (Letra).mp3" class="trigger">
+                    5 - TODAVIA - LA FACTORIA
+                </button>
+            </div>
+            <div>
+                <div id="music-player" class="hidden">
+                    <audio id="audio-player" controls>
+                        Tu navegador no soporta el elemento audio
+                    </audio>
+                </div>
+            </div>
+            <!-- Publicaciones de facebook aun no se encuentra posicion 
+            <section id="redes">
+            <div class="frame-facebook">
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flanueva.fam.3%2Fposts%2Fpfbid02X7WsCHzFEvZtz61pHx3mhcMovzcycrQ3bqzXzWUsyfL1To5oosF7bkavkaK56HBEl&show_text=true&width=500&is_preview=true"
+                    width="auto" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flanueva.fam.3%2Fposts%2Fpfbid025b4dtvoQGDJ9obGiT3oSFVZeAe1M7kpVH7ysBqF3H2CPqYANGRQBecf5SqoccFnvl&show_text=true&width=500&is_preview=true"
+                    width="auto" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                <iframe
+                    src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Flanueva.fam.3%2Fposts%2Fpfbid0o1gpW5WTfaUrueJX9FPdDfApAXnNdxjNZy64oyXRU5ZzrbirBa5hgAaiKJNoGrAkl&show_text=true&width=500&is_preview=true"
+                    width="auto" height="415" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+            </section> -->
+        </section>
+        <section id="section-3">
+            <div class="contactanos">
+                <h2>Contáctanos</h2>
+                <p>
+                    <a href="https://maps.app.goo.gl/wNEs8c7j4AFft5cT9" target="_blank" class="contact-link">
+                        <img src="/public/IconMaps.png" width="25px" alt="Marcador de posición" />
+                        Cra 17B N° 18 140, <br />
+                        Galapa-Atlántico
+                    </a>
+                </p>
+                <p>
+                    <a href="mailto:info@lanueva.com" class="contact-link">
+                        <img src="/public/IconMail.png" width="25px" alt="Correo electrónico" />
+                        servicioalcliente@lanueva.com
+                    </a>
+                </p>
+                <p>
+                    <a href="https://wa.link/wbjaka" target="_blank" class="contact-link">
+                        <img src="/public/IconPhone.png" width="25px" alt="WhatsApp" />
+                        310 320 4578
+                    </a>
+                </p>
+            </div>
+            <div class="siguenos">
+                <h2>Síguenos</h2>
+                <a href="https://www.facebook.com/lanueva.fam.3" target="_blank">
+                    <img src="./public/facebook (1).png" width="30px" alt="facebook" /></a>
+                <img src="./public/instagram (1).png" width="30px" alt="facebook" />
+            </div>
+            </div>
+            <div class="nosotros">
+                <h2>Nosotros</h2>
+                <p>
+                    Somos el sistema musical más escuchado de Colombia. Disfruta de lo
+                    mejor de todos los géneros musicales, solicita las últimas canciones
+                    de tus artistas favoritos, mantente al día con las noticias de las
+                    celebridades más importantes y participa en nuestros emocionantes
+                    concursos y actividades. ¡Únete a nosotros y siente la música como
+                    nunca antes!
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="patrocinadores">
+            <div class="patrocinador">
+                <img src="./public/Logo_del_Ministerio_de_Tecnologías.png" width="100" alt="logoministerio" />
+            </div>
+            <div class="patrocinador">
+                <img src="./public/CRC_Colombia.png" width="180px" alt="crcolombia" />
+            </div>
+            <div class="patrocinador">
+                <img src="./public/escudo-de-colombia8163.jpg" width="140" alt="escudo" />
+            </div>
+        </div>
+        <div class="autor">
+            <p>© 2024. Todos los Derechos Reservados. Creador por Elian Marin</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

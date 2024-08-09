@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(0, 0, 0, 0.7);
+}
+
+#banner {
+    padding-bottom: 0px;
+}
+
+#error404 {
+    background: url(../../public/FondoError404.png);
+    background-size: cover;
+    text-align:right;
+    padding: 167px;
+}
+
+#regresar {
+    background-color: red;
+    color: #fdfdfd;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 8px 15px;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+#regresar:hover {
+    box-shadow: inset 400px 50px 0 0 darkred;
+}
+
+.parrafo404, .titulo404 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+}

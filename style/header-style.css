@@ -1,0 +1,105 @@
+/*Este archivo no se esta utilizando dentro del codigo - se creo inicial y se modifico*/
+
+body {
+    font-family: 'DM-Sans', sans-serif;
+    padding: none;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    max-width: 150px;
+    height: auto;
+}
+
+.header__navegation nav ul {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.header__navegation nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.play {
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.poligon {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #000000;
+    margin-right: 10px;
+}
+
+.live-text {
+    font-weight: bold;
+}
+
+.header__setting {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    flex-wrap: nowrap;
+}
+
+.play:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header__navegation nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header__navegation nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .header__setting {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    .logo {
+        max-width: 100px;
+    }
+}

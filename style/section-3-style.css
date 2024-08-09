@@ -1,0 +1,51 @@
+#section-3 {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    gap: 220px;
+    padding: 50px 50px 50px;
+}
+
+.contactanos {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.contact-link img {
+    margin-right: 10px;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+#section-3 h2 {
+    text-align: center;
+}
+
+/* esta linea se renovo
+.nosotros p {
+    padding-left: 200px;
+}
+
+.Contactanos img {
+    float:left;
+    padding-right: 3px;
+} */
+
+@media (max-width: 768px) {
+    #section-3 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
