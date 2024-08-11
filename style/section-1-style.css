@@ -65,27 +65,28 @@
 }
 
 #section-1 img {
+    border-radius: 10% 50% 2% 0% / 50% 20% 0% 10%;
     width: 100%;
     display: block;
 }
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 20px auto;
 }
 
-.header-notice {
-    border-radius: 0px 0px 8px 8px;
-}
-
 .card-description {
     font-weight: bold;
-    color: #000000;
+    color: #ffffff;
 }
 
 .notice {
+    background: url(../public/FondoSection3.png) no-repeat;
+    background-size: cover;
+    border: 2px solid #ff0000;
     margin-bottom: 10px;
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
 }
 
 .notice:hover {
@@ -98,7 +99,7 @@
 }
 
 .vermas {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     color: #fdfdfd;
     font-weight: bold;
     border: 2px solid rgb(255, 255, 255);
@@ -115,7 +116,7 @@
 }
 
 .vermas:hover {
-    box-shadow: inset 400px 50px 0 0 darkred;
+    box-shadow: inset 400px 50px 0 0 rgb(212, 7, 7);
 }
 
 @media (min-width: 480px) {
