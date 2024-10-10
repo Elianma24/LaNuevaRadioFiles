@@ -1,44 +1,47 @@
-
-
 #section-formulario h2 {
     text-align: center;
 }
 
-form {
-    margin-left: 50px;
+.formulario {
+    background: url(/public/FondoSection3.png);
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 5px;
+    justify-content: center;
+    width: 300px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
-label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
+form input,
 textarea {
-background-color: rgb(0, 0, 0);
-color: #ffffff;
-width: 30%;
-padding: 6px;
-margin-bottom: 8px;
-box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease;
+    font-family: "DM-Sans", sans-serif;
 }
 
 input[type="submit"] {
-    position: relative;
-    width: 10%;
-    display: block;
-    margin-bottom: 50px;
     padding: 10px;
-    background-color: #f30b0b;
-    color: rgb(0, 0, 0);
+    background-color: #dd1313;
+    color: white;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 input[type="submit"]:hover {
-    box-shadow: inset 400px 50px darkred;
+    background-color: #701010;
+    color: black;
+}
+
+section-formulario p {
+    text-align: center;
 }
